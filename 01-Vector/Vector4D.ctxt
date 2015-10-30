@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=x\ y\ z\ t
+comment0.target=Vector4D(double,\ double,\ double,\ java.util.Date)
+comment1.params=
+comment1.target=java.util.Date\ getT()
+numComments=2
