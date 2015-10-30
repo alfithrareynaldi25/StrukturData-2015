@@ -1,4 +1,10 @@
 #BlueJ class context
 comment0.params=x\ y\ z
 comment0.target=Vector3D(double,\ double,\ double)
-numComments=1
+comment1.params=
+comment1.target=double\ getX()
+comment2.params=
+comment2.target=double\ getY()
+comment3.params=
+comment3.target=double\ getZ()
+numComments=4
