@@ -1,0 +1,25 @@
+#BlueJ package file
+objectbench.height=76
+objectbench.width=1346
+package.editor.height=605
+package.editor.width=1220
+package.editor.x=0
+package.editor.y=24
+package.numDependencies=0
+package.numTargets=1
+package.showExtends=true
+package.showUses=true
+project.charset=UTF-8
+target1.editor.height=700
+target1.editor.width=900
+target1.editor.x=40
+target1.editor.y=52
+target1.height=50
+target1.name=UjiKopiBerkas
+target1.naviview.expanded=false
+target1.showInterface=false
+target1.type=UnitTestTargetJunit4
+target1.typeParameters=
+target1.width=120
+target1.x=560
+target1.y=180
