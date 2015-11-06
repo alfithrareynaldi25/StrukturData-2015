@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=shift
+comment0.target=CaesarCipher(int)
+comment1.params=sumber\ sasaran
+comment1.target=void\ enkripsi(java.lang.String,\ java.lang.String)
+comment2.params=sumber\ sasaran
+comment2.target=void\ dekripsi(java.lang.String,\ java.lang.String)
+numComments=3
