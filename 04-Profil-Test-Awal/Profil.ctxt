@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Profil()
+comment1.params=nama\ nim
+comment1.target=Profil(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getNama()
+comment3.params=
+comment3.target=java.lang.String\ getNim()
+numComments=4
