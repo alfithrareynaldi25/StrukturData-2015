@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.params=file1\ file2\ file3\ sasaran
+comment0.target=void\ merge(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+numComments=1
