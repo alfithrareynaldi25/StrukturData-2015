@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=pesan\ namaBerkas
+comment0.target=void\ tulis(java.lang.String,\ java.lang.String)
+comment0.text=\r\n\ Fungsi\ untuk\ menulis\ suatu\ berkas\ dengan\ pesan\ tertentu.\r\n\r\n\ Parameter\:\r\n\ \ \ pesan\ \=\ pesan\ yang\ akan\ ditulis\r\n\ \ \ namaBerkas\ \=\ Nama\ berkas\ yang\ akan\ ditulis\r\n\ \r\n\ PERHATIKAN\:\ Jika\ namaBerkas\ sudah\ ada\ maka\ akan\ ditimpa\!\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
