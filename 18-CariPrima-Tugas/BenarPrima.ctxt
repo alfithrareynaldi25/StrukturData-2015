@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=angka
+comment0.target=BenarPrima(int)
+comment0.text=\r\n\ Constructor\r\n\ \r\n\ @param\ angka\ Angka\ yang\ hendak\ diperiksa\ prima\ atau\ tidak.\r\n
+comment1.params=
+comment1.target=boolean\ selesai()
+comment1.text=\r\n\ Status\ perhitungan\ telah\ selesai\ atau\ belum\r\n
+comment2.params=
+comment2.target=int\ angka()
+comment2.text=\r\n\ Angka\ yang\ henda\ diperiksa\ bilangan\ prima\ atau\ tidak\r\n
+comment3.params=
+comment3.target=boolean\ prima()
+comment3.text=\r\n\ Hasil\ perhitungan.\ Jika\ true\ berarti\ prima\ dan\ false\ jika\ tidak.\ \r\n\ NOTE\:\ jika\ selesai\ masih\ false\ maka\ hasil\ perhitungan\ belum\ \r\n\ mengembalikan\ nilai\ yang\ sah.\r\n
+comment4.params=
+comment4.target=void\ benarPrima()
+comment4.text=\r\n\ Periksa\ apakah\ angka\ yang\ diberikan\ nilangan\ prima\ atau\ tidak.\ Jika\ \r\n\ bilangan\ prima\ maka\ akan\ nilai\ variable\ prima\ akan\ dijadikan\ true\ tetapi\r\n\ seandainya\ bukan\ bilangan\ prima\ maka\ nilai\ variable\ prima\ akan\ dijadikan\ \r\n\ false.\r\n
+comment5.params=
+comment5.target=void\ run()
+comment5.text=\r\n\ Main-nya\ thread\r\n
+numComments=6
