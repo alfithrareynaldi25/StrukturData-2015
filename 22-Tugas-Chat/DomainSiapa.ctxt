@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=namaDomain
+comment0.target=void\ whois(java.lang.String)
+comment1.params=namaDomain
+comment1.target=void\ kirimPerintah(java.lang.String)
+comment2.params=
+comment2.target=void\ bacaBalasan()
+numComments=3
