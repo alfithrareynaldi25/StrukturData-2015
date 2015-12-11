@@ -8,6 +8,8 @@ import java.io.Writer;
 import java.io.OutputStreamWriter;
 import java.io.InputStream;
 import java.io.BufferedInputStream;
+import java.io.BufferedWriter;
+import java.io.IOException;
 
 public class DomainSiapa {    
     private Socket socket = null;
@@ -17,7 +19,7 @@ public class DomainSiapa {
         dn.whois();
     }
     
-    public void whois(String namaDomain) 
+    public void whois() 
                 throws UnknownHostException, IOException {
         // 0. Buka socket
         koneksi = new Socket("google.com", 80);
