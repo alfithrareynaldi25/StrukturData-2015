@@ -10,13 +10,20 @@ import java.io.InputStream;
 import java.io.BufferedInputStream;
 
 public class DomainSiapa {    
+    private Socket socket = null;
+    
+    public static void main (String[] args)throws UnknownHostException, IOException{
+        DomainSiapa dn = new DomainSiapa();
+        dn.whois();
+    }
+    
     public void whois(String namaDomain) 
                 throws UnknownHostException, IOException {
         // 0. Buka socket
-        koneksi = new Socket("unsyiah.ac.id", 80);
+        koneksi = new Socket("google.com", 80);
 
         // Kirim perintah untuk informasi namaDomain
-        kirimPerintah(namaDomain);
+        kirimPerintah("GET index.html");
         
         // Baca balasannya
         bacaBalasan();
@@ -26,15 +33,11 @@ public class DomainSiapa {
     }
     
     public void kirimPerintah(String namaDomain) throws IOException {
-        // 1 & 2. Minta socket untuk ditulis dan Langsung dibuka
-        OutputStream keluaran = koneksi.getOutputStream();
-        // Note: Karena protokol-nya berbasis teks pakai writer aja.
-        Writer keluaranWriter = new OutputStreamWriter(keluaran);
-        // 3. Selagi ada data kirim
-        keluaranWriter.write(namaDomain);
-        // Syarat protokol-nya, semua perintah diakhiri dengan: CR & LF
-        keluaranWriter.write("\r\n"); 
-        keluaranWriter.flush(); // Paksa kirim data yang belum terkirim
+        Writer keluaranWriter = new OutputStreamWriter(koneksi.getOutputStream());
+        BufferedWriter keluaranBuff = new BufferedWriter(keluaranWriter);
+        keluaranBuff.write(namaDomain);
+        keluaranBuff.newLine();
+        keluaranBuff.flush(); // Paksa kirim data yang belum terkirim
     }
     
     public void bacaBalasan() throws IOException {
