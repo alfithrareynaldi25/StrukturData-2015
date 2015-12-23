@@ -34,7 +34,7 @@ public class Client {
                 keluaranBuff.write("\n");
                 keluaranBuff.flush();
 
-                System.out.print("Alamat IP Anda adalah ");
+                System.out.print("IP Anda:");
                 masukan = new InputStreamReader(socket.getInputStream()); 
                 masukanBuff = new BufferedReader(masukan);
                 baris = masukanBuff.readLine();
